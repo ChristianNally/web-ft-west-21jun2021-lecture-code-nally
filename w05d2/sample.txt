@@ -1,0 +1,42 @@
+
+users
+-----------------------
+id             SERIAL*
+name           TEXT
+email          TEXT*
+password       TEXT*
+logged_in      DATE
+birth_date     DATE
+department_id  INTEGER
+admin          BOOLEAN
+
+
+departments
+--------------------
+id    SERIAL
+name  TEXT
+
+blogs
+------------------
+id          SERIAL
+title       TEXT
+body        TEXT
+user_id     INTEGER
+
+
+users
+1,  mickey, heMouse@disney.com, foryoureyesonly!, 2021-07-01
+1,  minnie, sheMouse@disney.com, foryoureyesonly!, 2021-07-01
+
+
+blogs
+1, How I Rose To Fame, "Lorem Ipsum etc.", 2
+2, How I Fell From Fame, "Lorem Ipsum etc.", 2
+
+
+SELECT users.id FROM users INNER JOIN blogs ......
+
+pay_rates
+---------
+user_id
+quarter
