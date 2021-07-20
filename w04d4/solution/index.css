@@ -1,13 +1,15 @@
 * {
   box-sizing: border-box;
+  border: solid 2px black;
 }
 
 body {
   margin: 0;
+  font-size: 32px;
 }
 
 nav {
- min-width: 230px;
+ min-width: 260px;
 }
 
 #main {
@@ -18,6 +20,10 @@ nav {
 #main > article {
   flex: 1;
   min-width: 440px;
+}
+
+#main > article h2 {
+  font-size: 2.3rem;
 }
 
 #main > nav,
@@ -45,6 +51,10 @@ footer {
   height: 20vh;
 }
 
+p.second {
+  width: 30vw;
+}
+
 /* p.another {
   background-color:red;
 }
@@ -58,21 +68,21 @@ p {
   width: 50%;
 } */
 
-#main .first {
+/* #main .first {
   font-size: 1rem;
-}
+} */
 
 /* .second {
   font-size: 2em;
 } */
 
-#main {
+/* #main {
   font-size: 2em;
-}
+} */
 
-#main .second {
+/* #main .second {
   font-size: 0.3em;
-}
+} */
 
 @media only screen and (max-width: 992px) {
   body {

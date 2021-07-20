@@ -1,4 +1,5 @@
 $main-size: 2em;
+$small-size: 1.8em;
 $background-color: purple;
 
 p {
@@ -10,7 +11,7 @@ p {
 }
 
 .second {
-  font-size: $main-size;
+  font-size: $small-size;
 }
 
 #main {
