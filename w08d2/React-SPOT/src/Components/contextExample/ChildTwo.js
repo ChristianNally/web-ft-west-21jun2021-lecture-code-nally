@@ -3,7 +3,7 @@ import ContextHolder from './ContextHolder';
 
 const ChildTwo = (props) => {
 
-  const {setCounter} = useContext(ContextHolder);
+  const {counter,setCounter} = useContext(ContextHolder);
 
   const handleClick = () => {
     setCounter(prev => prev + 1);
@@ -11,7 +11,7 @@ const ChildTwo = (props) => {
 
   return (
     <div>
-      <h2>ChildTwo</h2>
+      <h2>ChildTwo: {counter}</h2>
       <button onClick={handleClick}>Plus One</button>
     </div>
   );

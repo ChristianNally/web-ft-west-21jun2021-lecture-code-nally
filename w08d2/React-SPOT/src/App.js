@@ -111,8 +111,8 @@ function App() {
             <h3>Coming Soon</h3>
           </Route>
         </Switch>
-      </Router>
-      {/* <Parent></Parent> */}
+      </Router> */}
+      {/* <Parent></Parent>
     </div>
   );
 }

@@ -59,7 +59,7 @@ b)
 { !loading && <h1>HERE ARE THE GOODS</h1> }
 
 7)
-useParams(); returns an object that contain 
+useParams(); returns an object that contains the URL parameters
 
 8)
 const history = useHistory();
